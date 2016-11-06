@@ -1,0 +1,10 @@
+#!/bin/zsh
+
+HISTFILE=~/.histfile
+HISTSIZE=1000
+SAVEHIST=1000
+
+#use vi mode
+bindkey -v
+
+setopt NO_BEEP

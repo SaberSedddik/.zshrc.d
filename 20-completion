@@ -1,0 +1,6 @@
+#!/bin/zsh
+zstyle ':completion:*' menu select
+
+autoload -Uz compinit 
+compinit
+
