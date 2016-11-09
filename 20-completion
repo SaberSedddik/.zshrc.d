@@ -2,5 +2,4 @@
 zstyle ':completion:*' menu select
 
 autoload -Uz compinit 
-compinit
-
+compinit -u -i

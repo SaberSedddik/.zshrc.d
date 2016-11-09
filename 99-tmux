@@ -1,0 +1,4 @@
+#!/bin/zsh
+# Load tmux by default
+[[ -z "$TMUX" ]] && (tmux attach || tmux -u)
+
