@@ -2,7 +2,7 @@
 if which nvim>/dev/null 2>&1; then
   alias vi=nvim
 elif which vim>/dev/null 2>&1; then
-  alias vi =vim
+  alias vi=vim
 fi
 # Color aliases
 if command -V dircolors >/dev/null 2>&1; then
